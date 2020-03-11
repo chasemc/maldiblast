@@ -1,3 +1,0 @@
-memory profiling: GC profiling: line profiling: sample.interval=10000
-#File 1: <expr>
-:1626491:3804436:108338944:57:"result_fetch" ".local" "DBI::dbFetch" "DBI::dbFetch" 1#13 "force" "doTryCatch" "tryCatchOne" "tryCatchList" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "profvis::profvis" 

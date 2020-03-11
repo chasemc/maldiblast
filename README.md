@@ -1,16 +1,12 @@
 # Work in Progress
  This repo may disappear  at any time
 
+
+API can be started with `plumb(file='R/api.R')$run()`, requires R {plumber}
+
+
+
 ```{r}
-source("R/blaster.R")
-```
-
-
-```{r}
-#example_pool <- IDBacApp::idbac_connect("VN2018_update","C:\\Users\\chase\\Documents\\GitHub\\vietnam\\data")[[1]]
-
-
-
 example_pool <- IDBacApp::idbac_connect("apostle_islands","C:/Users/chase/Documents/GitHub/sponge_meta/data/sqlite")[[1]]
 example_pool2 <- IDBacApp::idbac_connect("two_sponge_project","C:/Users/chase/Documents/GitHub/sponge_meta/data/sqlite")[[1]]
 ```
@@ -20,17 +16,23 @@ example_pool2 <- IDBacApp::idbac_connect("two_sponge_project","C:/Users/chase/Do
 ```{r}
 
 
-z <- blaster(queryPool = example_pool,
-             subjectPool = example_pool2,
-             peakPercentPresence = 0.6,
-             lowerMassCutoff = 3000,
-             upperMassCutoff = 15000,
-             minSNR = 4,
-             tolerance = .002,
-             protein = TRUE,
-             chunksize = 10,
-             similarity_cutoff = NA)
+z <- maldiblast::blaster(queryPool = example_pool,
+                         subjectPool = example_pool2,
+                         peakPercentPresence = 0.6,
+                         lowerMassCutoff = 3000,
+                         upperMassCutoff = 15000,
+                         minSNR = 4,
+                         tolerance = .002,
+                         protein = TRUE,
+                         chunksize = 10,
+                         similarity_cutoff = NA)
 ```
+
+
+ temp <- .retrieve_peaks_from_pool(pool = example_pool,
+                                    sampleIDs =  IDBacApp::idbac_available_samples(example_pool, allSamples = T)[1:5],
+                                    protein = T,
+                                    minSNR = 5)
 
 
 ```{r}
