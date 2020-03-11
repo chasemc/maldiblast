@@ -1,0 +1,12 @@
+Package: maldiblast
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Chase",
+           family = "Clark",
+           role = c("aut", "cre"),
+           email = "chasec288@gmail.com")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true

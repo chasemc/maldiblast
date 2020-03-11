@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583879475530.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EDC37CEC",
+    "lastKnownWriteTime" : 7160569971446915616,
+    "last_content_update" : 1583879475530,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "C077FAD3",
+        "caption" : "awa",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=awa&cache_key=C077FAD3",
+        "displayedObservations" : 1752,
+        "environment" : "",
+        "expression" : "awa",
+        "object" : "awa",
+        "preview" : 0,
+        "totalObservations" : 1752,
+        "variables" : 1698
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

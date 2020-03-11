@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583879832454.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5352231C",
+    "lastKnownWriteTime" : 2325047243400,
+    "last_content_update" : 1583879832454,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "28e88a22eb8b42faaa0c515420932bcc",
+        "name" : "subject_vectors[, 1:2]",
+        "title" : "subject_vectors[, 1:2]"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}
