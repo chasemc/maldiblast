@@ -8,7 +8,7 @@ API can be started with `plumb(file='R/api.R')$run()`, requires R {plumber}
 
 ```{r}
 example_pool <- IDBacApp::idbac_connect("apostle_islands","C:/Users/chase/Documents/GitHub/sponge_meta/data/sqlite")[[1]]
-example_pool2 <- IDBacApp::idbac_connect("two_sponge_project","C:/Users/chase/Documents/GitHub/sponge_meta/data/sqlite")[[1]]
+example_pool2 <- IDBacApp::idbac_connect("two_sponge_project","C:/Users/c ase/Documents/GitHub/sponge_meta/data/sqlite")[[1]]
 ```
 
 
